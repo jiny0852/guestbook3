@@ -38,7 +38,7 @@ public class GuestbookController {
 		System.out.println(count);
 
 		
-		return "redirect:/addList";
+		return "redirect:/list";
 	} 
 	
 	
@@ -75,7 +75,7 @@ public class GuestbookController {
 		System.out.println(count);
 		
 		//리스트로 리다이렉트
-		return "redirect:/addList";
+		return "redirect:/list";
 		
 	}
 	
